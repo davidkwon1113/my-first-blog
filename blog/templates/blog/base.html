@@ -1,24 +1,133 @@
-{% load static %}
 <html>
     <head>
-        <title>Student OpenChat;lenge</title>
+        <title>オープンチャットコンテスト</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" type = "text/css">
+        <link rel="stylesheet" href="../../static/css/blog.css?after">
     </head>
     <body>
             <div class="page-header">
-                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-                <h1><a href="/">Student OpenChat;lenge</a></h1>
+                <h1><a href="/">オープンチャットコンテスト</a></h1>
             </div>
-            <div class="content container">
-                <div class="row">
-                    <div class="col-md-8">
-                    {% block content %}
-                    {% endblock %}
+            <div class="event-section">
+                <div class="title">
+                    <h2>オープンチャットが大学生にプレゼントする!</h2>
+                </div>
+                <div class="event-description-1">
+                    <h3>オープンチャットで部活動をする時のメリット</h3>
+                    <p>&#x1F601;URLリンクをクリックで招待 終わり</p>
+                    <p>&#x1F601;新入生も確認する1年前告知</p>
+                    <p>&#x1F601;5000人同時入場まで</p>
+                </div>
+                <div class="event-description-2">
+                    <p>このようなオープンチャットで1ヶ月間遊んでばかりしても<br> 
+                       サークルの支援金最大50万円を受けることができます。<br>
+                       今すぐ参加してみてください。</p>
+                </div>
+            </div>
+            <div class="prize-section">
+                <div class="title">
+                    <h2>시상품</h2>
+                </div>
+                <div class="prize-table">
+                    <table border="1">
+                        <tr>
+                            <td>
+                                <img src="https://images.unsplash.com/photo-1527871369852-eb58cb2b54e2?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb" height = 110>
+                            </td>
+                            <td>
+                                <h4>동아리 지원금</h4>
+                                <blockquote>
+                                    <ul>대상(1팀) : 50만엔</ul>
+                                    <ul>최우수상(1팀) : 20만엔</ul>
+                                    <ul>우수상(1팀) : 10만엔</ul>
+                                    <ul>장려상(20팀) : 1만엔</ul>
+                                </blockquote>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>image2</td>
+                            <td>descr2</td>
+                        </tr>
+                        <tr>
+                            <td>image3</td>
+                            <td>descr3</td>
+                        </tr>
+                        <tr>
+                            <td>image4</td>
+                            <td>descr4</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class = "require_section">
+                <div class="title">
+                    <h2>콘테스트에 참가하려면?</h2>
+                </div>
+                <div class = "description">
+                    <div class = "participants">
+                        <h3>참가 대상</h3>
+                        <p>대학생 누구나</p>
+                    <div>
+                    <div class = "how-to">
+                        <h3>참가 방법</h3>
+                            <ol><li>동아리 대화방을 생성하세요</li>
+                            <li>설명문에 "OpenChat;lenge"를 넣으세요</li>
+                            <li>12/13까지 참가자들과 대화를 나누세요</li>
+                            <li>12/20까지 사용후기를 응모하세요</li>
+                            <li>응모샘플은 아래를 참고하세요</li></ol>
+                    </div>
+                    <div class = "apply-contents">
+                        <h3>응모 내용</h3>
+                        <blockquote>
+                            <p>내가 속한 동아리 대화방을 OpenChat으로 옮겨 보세요<br>
+                               1달 동안 OpenChat을 사용해보고, 활용 사례와 좋았던 점을 자유로운 형식으로 응모해보세요<br>
+                               여러분의 재기발랄한 사용후기를 기다리고 있습니다
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class = "button">
+                        <input type = "button" value = "응모샘플 보기" onClick = "window.open('http://openchat-blog.line.me/')">
+                        <input type = "button" value = "응모하기" onClick = "window.open('http://openchat-blog.line.me/')">
                     </div>
                 </div>
             </div>
+            <div class = "share_section">
+                <div class = "title">
+                    <h2>친구에게 공유해보세요!</h2>
+                </div>
+                <div class = "button">
+                    <input type = "button" value = "Twitter로 공유하기" onClick = "window.open('https://twitter.com/intent/tweet?text=%EB%82%98%EB%9E%91%EA%B0%99%EC%9D%B4%EC%B0%B8%EC%97%AC%ED%95%98%EC%9E%90%1D&url=http://openchat-blog.line.me/')">
+                    <input type = "button" value = "Facebook으로 공유하기" onClick = "window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fopenchat-blog.line.me%2F')">
+                </div>
+            </div>
+            <div class = "service_section">
+                <div class = "title">
+                    <h2>OpenChat이란?</h2>
+                </div>
+                <div class = "description">
+                    <blockquote>
+                        <p>LINE OpenChat은 LINE ID 공유 없이,<br>
+                           다른 사용자들과 취미 및 생활밀착형 정보를<br>
+                           실시간 메시지로 공유할 수 있는 서비스입니다.<br>
+                        </p>
+                    </blockquote>
+                </div>
+                <div class = "button">
+                    <input type = "button" value = "서비스 알아보기" onClick = "window.open('http://openchat-blog.line.me/')">
+                </div>
+           </div>
+           <div class = "help_section">
+               <div class = "title">    
+                   <h2>도움말</h2>
+               </div>
+               <div class = "description">
+                   <p>콘테스트 문의사항은 아래로 연락해주세요</p>
+               </div>
+               <div class = "button">
+                   <a href="http://nav.cx/ghnRWDr"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
+               </div>
+           </div>
     </body>
 </html>
