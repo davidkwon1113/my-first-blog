@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #00DB6F;
+    background-color: #00D6C7;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
     height: 300px;
@@ -14,7 +14,7 @@
 }
 
 .event-section h2 {
-    padding: 20px 0px 20px 40px;
+    padding: 20px 20px 20px 40px;
     height: 60px;
     font-size: 32pt;
     text-decoration: none;
@@ -22,7 +22,7 @@
 }
 
 .event-description-1 {
-    padding: 20px 0px 20px 40px;
+    padding: 20px 20px 20px 40px;
     text-decoration: none;
     font-family : 'Noto Sans JP', sans-serif;
 }
@@ -34,9 +34,122 @@
 }
 
 .event-description-2 {
-    padding : 20px 0px 20px 40px;
+    padding : 20px 20px 20px 40px;
     font-size : 12pt;
     text-decoration: none;
     line-height : 200%;
     font-family : 'Noto Sans JP', sans-serif;
+}
+
+.require-section h2 {
+    padding : 20px 20px 20px 40px;
+    height: 60px;
+    font-size : 32pt;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.require-description {
+    padding : 20px 20px 20px 40px;
+    text-decoration: none;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.require-description p {
+    font-size : 12pt;
+    text-decoration : none;
+    line-height : 200%;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.participants {
+    padding : 20px 20px 20px 0px;
+}
+
+.how-to {
+    padding : 20px 20px 20px 0px;
+}
+
+.apply-contents {
+    padding : 20px 20px 20px 0px;
+}
+
+.share-section h2 {
+    padding : 20px 20px 20px 40px;
+    height : 60px;
+    font-size : 32pt;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.share-description {
+    padding : 20px 20px 20px 40px;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.share-description p {
+    font-size : 12pt;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+    padding : 20px 20px 20px 0px;
+}
+
+.service-section h2 {
+    padding : 20px 20px 20px 40px;
+    height : 60px;
+    font-size : 32pt;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.service-description {
+   padding : 20px 20px 20px 40px;
+}
+
+
+.service-description p {
+    font-size : 12pt;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+    padding : 20px 20px 20px 0px;
+    line-height : 200%;
+}
+
+.help-section h2 {
+    padding : 20px 20px 20px 40px;
+    height : 60px;
+    font-size : 32pt;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.help-description {
+    padding : 20px 20px 20px 40px;
+    font-size : 12pt;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.help-description p {
+    padding : 20px 20px 20px 0px;
+}
+
+.prize-section h2{
+    padding : 20px 20px 20px 40px;
+    height : 60px;
+    font-size : 32pt;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.prize-table p {
+    line-height = 200%;
+    text-decoration : none;
+    font-family : 'Noto Sans JP', sans-serif;
+}
+
+.prize-table td {
+    padding : 20px 20px 20px 40px ;
+    vertical-align : top;
 }
