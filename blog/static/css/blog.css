@@ -150,6 +150,11 @@
 }
 
 .prize-table td {
-    padding : 20px 20px 20px 40px ;
+    padding : 20px 20px 20px 40px;
     vertical-align : top;
+}
+
+.prize-section img {
+    max-width : 50%;
+    height : auto;
 }
